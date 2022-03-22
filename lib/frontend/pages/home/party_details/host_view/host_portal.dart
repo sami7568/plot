@@ -10,6 +10,7 @@ class HostPortal extends StatefulWidget {
 
 class _HostPortalState extends State<HostPortal> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
+  bool isAdmin =false;
 
   @override
   Widget build(BuildContext context) {
@@ -50,7 +51,7 @@ class _HostPortalState extends State<HostPortal> {
                     width: 192,
                     onChanged: (bool value) {
                       setState(() {
-                       // isAdmin = value;
+                        isAdmin = value;
                         print(value);
                       //  print("Admin is $isAdmin");
                       });
