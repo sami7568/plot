@@ -35,13 +35,27 @@ class _TicketsWidgetState extends State<TicketsWidget> {
                     ).image,),
                 ),
                 child: Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 0, 250, 100),
-                  child: Icon(
-                    Icons.menu,
-                    color: Colors.white,
-                    size: 24,
+                  padding: EdgeInsetsDirectional.fromSTEB(50, 40, 260, 100),
+                  child: Container(
+                    width: 1,
+                    height: 2,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF040404),
+                      borderRadius: BorderRadius.circular(30),
+                      shape: BoxShape.rectangle,
+                    ),
+                    alignment: AlignmentDirectional(0, 0.10000000000000009),
+                    child: Align(
+                      alignment: AlignmentDirectional(0, 0),
+                      child: Icon(
+                        Icons.menu,
+                        color: Colors.white,
+                        size: 26,
+                      ),
+                    ),
                   ),
-                ),
+                )
+
               ),
               Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
@@ -62,7 +76,7 @@ class _TicketsWidgetState extends State<TicketsWidget> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Forth of July',
+                                  'Fourth of July',
                                   style: TextStyle(
                                     fontFamily: 'Poppins',
                                     color: Colors.white,
