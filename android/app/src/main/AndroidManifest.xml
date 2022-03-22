@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.plots">
    <application
+        tools:replace="label"
         android:label="plots"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -18,6 +18,7 @@ import 'package:plots/frontend/services/sync_firestore_shared_prefs.dart';
 import 'package:plots/services/app_services.dart';
 
 import 'frontend/pages/home/party_details/host_view/host_portal.dart';
+import 'frontend/pages/home/party_details/host_view/ticket.dart';
 
 
 Future initApplication() async {
@@ -63,7 +64,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HostPortal(),
+      home: TicketsWidget(),
     );
       /*GetMaterialApp(
       title: 'plots',

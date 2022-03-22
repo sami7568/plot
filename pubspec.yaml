@@ -68,6 +68,8 @@ dependencies:
   introduction_screen: ^2.1.0
   firebase_storage:
   firebase_messaging:
+  flutter_spinkit: 4.1.2+1
+  google_fonts: 2.1.0
   latlong:
   intl:
   get: 4.5.1
